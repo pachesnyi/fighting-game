@@ -1,2 +1,2 @@
-# fighting-game
+# Fighting-game
 Simple game built on javascript
