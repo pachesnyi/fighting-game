@@ -8,6 +8,10 @@ export function createFighterPreview(fighter, position) {
   });
 
   // todo: show fighter info (image, name, health, etc.)
+  if(fighter) {
+    const { attack, defense, health, name } = fighter;
+
+  }
 
   return fighterElement;
 }
