@@ -1,13 +1,34 @@
 .fighter-preview___root {
   display: flex;
-  flex-direction: column;
   flex-basis: 250px;
 }
 
-.fighter-preview___right {
+.fighter-preview___wrapper {
+  background: #ffdfa7;
+  border: 5px solid #ca9650;
+  padding: 20px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fighter-preview___title {
+  color: #ba0303;
+}
+
+.fighter-preview___row {
+
+}
+
+.fighter-preview___row + .fighter-preview___row {
+  margin-top: 5px;
+}
+
+.fighter-preview___right .fighter-preview___wrapper {
   align-items: flex-end;
 }
 
-.fighter-preview___left {
+.fighter-preview___left .fighter-preview___wrapper {
   align-items: flex-start;
 }
